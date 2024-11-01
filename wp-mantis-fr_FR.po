@@ -1,0 +1,240 @@
+# Translation of the WordPress plugin WP Mantis 1.1.0 by Monika Rother.
+# Copyright (C) 2010 Monika Rother
+# This file is distributed under the same license as the WP Mantis package.
+# Monika Rother <monika@niklas-rother.de>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Mantis 1.1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-mantis\n"
+"POT-Creation-Date: 2010-09-19 16:10+0000\n"
+"PO-Revision-Date: 2010-09-19 18:16+0100\n"
+"Last-Translator: Niklas Rother <info@niklas-rother.de>\n"
+"Language-Team: Monika Rother <monika@niklas-rother.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#. #-#-#-#-#  plugin.pot (WP Mantis 1.1.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: wp-mantis.php:86
+msgid "WP Mantis"
+msgstr "WP Mantis"
+
+#: wp-mantis.php:106
+msgid "New"
+msgstr "Nouveau"
+
+#: wp-mantis.php:107
+msgid "Feedback"
+msgstr "Commentaire"
+
+#: wp-mantis.php:108
+msgid "Acknowledged"
+msgstr "Accepté"
+
+#: wp-mantis.php:109
+msgid "Confirmed"
+msgstr "Confirmé"
+
+#: wp-mantis.php:110
+msgid "Assigned"
+msgstr "Affecté"
+
+#: wp-mantis.php:111
+msgid "Resolved"
+msgstr "Résolu"
+
+#: wp-mantis.php:112
+msgid "Closed"
+msgstr "Fermé"
+
+#: wp-mantis.php:134
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n´avez pas suffisant droit accès a cette page."
+
+#: wp-mantis.php:160
+msgid "URL to MantisConnect WSDL:"
+msgstr "URL a MantisConnect WSDL:"
+
+#: wp-mantis.php:161
+msgid "The URL to MantisConnect should be the complete URL where you find the mantisconnect.php file.  Make sure to end this url with ?wsdl or you'll get errors everywhere!"
+msgstr "Il faut que le URL a Mantis Connect être le complet URL où vous trouver le mantisconnect.php fichier. S´assurez-vous a finir le url avec ?wsdl où vous commencerez à ayoir faute partout!"
+
+#: wp-mantis.php:163
+msgid "Mantis Base URL:"
+msgstr "Mantis Base URL:"
+
+#: wp-mantis.php:164
+msgid "The URL the homepage of your Mantis installation (e.g. http://yoursite.com/bugs)."
+msgstr "Le URL a la homepage de votre Mantis installation (p.e. http://yoursite.com/bugs)."
+
+#: wp-mantis.php:166
+msgid "Mantis User:"
+msgstr "Mantis utilisateur:"
+
+#: wp-mantis.php:167
+msgid "This is the user used to access Mantis and get the bug list. Must have at least reporter capabilities. (See readme for details)"
+msgstr "C´est l´utilisateur utilisé a l´accès Mantis et rappelé le liste des fautes. Il faut avoir au moins de la capacité de l´annonceur. (Voir readme pour details) "
+
+#: wp-mantis.php:169
+msgid "Mantis Password:"
+msgstr "Mantis mot de passe:"
+
+#: wp-mantis.php:170
+msgid "The password for the user listed above."
+msgstr "Le mot de passe pour l´utilisateur au dessus."
+
+#: wp-mantis.php:172
+msgid "Maximum Description Lenght:"
+msgstr "Longueur de maximum description :"
+
+#: wp-mantis.php:173
+msgid "Maximum characters to display for the description of a bug. Set to 0 to display no description."
+msgstr "La plus haut nombre des lettres, qui va annoncer pour une faute. Placez a 0 pour annoncer rien."
+
+#: wp-mantis.php:175
+msgid "Enable Pagination:"
+msgstr "Activer de la pagination:"
+
+#: wp-mantis.php:176
+msgid "Enable pagination for bugs? If unchecked the setting below has no function."
+msgstr "Activer de la pagination pour des fautes? Si pas choisi le reglage sous n´a pas de la fonction."
+
+#: wp-mantis.php:178
+msgid "Bugs per Page:"
+msgstr "Fautes des pages:"
+
+#: wp-mantis.php:179
+msgid "Number of bugs shown on one site, if pagination is enabled."
+msgstr "Nombre des fautes annoncé sur une page, si pagination est activé."
+
+#: wp-mantis.php:181
+msgid "Colors and Statuses"
+msgstr "Couleurs et statuts"
+
+#: wp-mantis.php:182
+msgid "If the names of the statues are not in the right language, you can use this button to pull the correct values directly<br />from Mantis. This is also a good way to test the connection. The values will be in the language set for the user listed above</p><small>Make sure that you save the options first, or the old values will be used to make the connection!"
+msgstr "Si les noms des statuts ne sont pas dans la correct langue, vous pouvez user ce bouton pour aller chercher la correct valeur directement<br />de Mantis.C´est aussi une bonne route pour examiner la liaison. Les valeurs va etre dans la langue, qui sont reglé pour l´utilisateur dessus</p><small>Assuré-vous , que vous mémorisez les options d´abord, où les valeurs vieux sont utilisé pour établir la connexion!"
+
+#: wp-mantis.php:183
+msgid "Get Statuses Names"
+msgstr "Recevoir des noms des statuts"
+
+#: wp-mantis.php:185
+msgid "Customize the status colors below:"
+msgstr "Ajuster des couleurs des statuts dessous:"
+
+#: wp-mantis.php:189
+#: wp-mantis.php:196
+#: wp-mantis.php:302
+msgid "Status"
+msgstr "Statut"
+
+#: wp-mantis.php:190
+#: wp-mantis.php:197
+msgid "Color"
+msgstr "Couleur"
+
+#: wp-mantis.php:191
+#: wp-mantis.php:198
+#: wp-mantis.php:302
+msgid "ID #"
+msgstr "ID #"
+
+#: wp-mantis.php:212
+msgid "Reset Options"
+msgstr "Reglage d´origine"
+
+#: wp-mantis.php:213
+msgid "Save Changes"
+msgstr "Memoriser le changement"
+
+#: wp-mantis.php:241
+#: wp-mantis.php:277
+msgid "Options saved."
+msgstr "Reglage mémorisé."
+
+#: wp-mantis.php:250
+#, php-format
+msgid "Error: %s"
+msgstr "Fautes: %s"
+
+#: wp-mantis.php:294
+msgid "Error: No project ID specified!"
+msgstr "Faute: Pas de projet d´ID déclaré!"
+
+#: wp-mantis.php:302
+msgid "Category"
+msgstr "Catégorie"
+
+#: wp-mantis.php:302
+msgid "Details"
+msgstr "Details"
+
+#: wp-mantis.php:329
+msgid "Prev"
+msgstr "Devant"
+
+#: wp-mantis.php:329
+msgid "Next"
+msgstr "Puis"
+
+#: wp-mantis.php:337
+msgid "Note: This message is only displayed to admins, dont worry ;)"
+msgstr "Note: Ce message est seulement annoncé aux administrateurs, n´excitez-vous pas ;)"
+
+#: wp-mantis.php:341
+#, php-format
+msgid "Fatal Exception while connecting to Mantis: %s"
+msgstr "Funeste exception pendant que le connection de Mantis: %s"
+
+#: wp-mantis.php:351
+msgid "Error: No version/project ID or project name specified! See Readme for details."
+msgstr "Fautes: Pas de version/projét ID où projét nom indiqué! Voir Readme pour des détails."
+
+#: wp-mantis.php:354
+msgid "Error: Cannot specify both version and product ID!"
+msgstr "Fautes: Vous ne pouvez pas indiquer les deux, version et produit ID!"
+
+#: wp-mantis.php:359
+msgid "Error: Cannot use version ID with project name. See Readme for details."
+msgstr "Fautes: Vous ne pouvez pas utiliser version ID avec le nom du projèt. Voir Readme pour des détails."
+
+#: wp-mantis.php:362
+msgid "Error: Cannot specify both project name and ID"
+msgstr "Fautes: Vous ne pouvez pas indiquer les deux, nom du projèt et ID."
+
+#: wp-mantis.php:395
+#, php-format
+msgid "Error in Snoopy: %s"
+msgstr "Erreur dans Snoopy: %s"
+
+#: wp-mantis.php:401
+msgid "Error while fetching the page from Mantis."
+msgstr "Fautes pendant que décrocher le page de Mantis."
+
+#: wp-mantis.php:415
+msgid "Error: No Mode selected."
+msgstr "Fautes: Pas du mode choisi."
+
+#. Plugin URI of the plugin/theme
+msgid "http://niklas-rother.de/projekte/wp-mantis"
+msgstr "http://niklas-rother.de/projekte/wp-mantis"
+
+#. Description of the plugin/theme
+msgid "Extended Version of \"WP Mantis Table\". Allows to view Changelogs, Roadmaps and Buglists from <a href=\"http://mantisbt.org\">MantisBT</a> in Wordpress Pages and Post."
+msgstr "Etendue version de \"WP Mantis Table\". Permet de voir Changements, Calendrier et liste de faute de <a href=\"http://mantisbt.org\">MantisBT</a> en WordPress pages et l´articles."
+
+#. Author of the plugin/theme
+msgid "Niklas Rother"
+msgstr "Niklas Rother"
+
+#. Author URI of the plugin/theme
+msgid "http://niklas-rother.de"
+msgstr "http://niklas-rother.de"
+
+#~ msgid "Error: cURL is not present."
+#~ msgstr "Fautes:  cURL n´est pas à présent."
